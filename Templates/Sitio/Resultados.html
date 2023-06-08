@@ -1,0 +1,41 @@
+{% include 'Sitio/header.html' %}
+    <div class="p-5 bg-light">
+        <div class="container">
+            <h1 class="display-3">Resultados</h1>
+    </div>
+            <!--contien la tabla donde se muestran lso libros agragados-->
+            <div class="col-md-7">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Peso</th>
+                            <th>Calorias</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for elemento in conjunto_respuesta %}
+                        <tr>
+                            <td>{{elemento['nombre']}}</td>
+                            <td>{{elemento['peso']}}</td>
+                            <td>{{elemento['calorias']}}</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+                
+            </div>
+            
+        </div>
+    </div>
+    <div class="p-5 bg-light">
+        <div class="container">
+            <p></p>
+            <p>App Desarrollada por Eider Peña</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="/" role="button">Volver al index</a>
+            </p>
+        </div>
+    </div>
+
+{% include 'Sitio/footer.html' %}
