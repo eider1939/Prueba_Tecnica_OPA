@@ -5,7 +5,22 @@
 
  ![](https://github.com/eider1939/Prueba_Tecnica_OPA/blob/main/Img/punto1.JPG)
 
+
+## respuesta Punto 2
+
+El artista es B
+El Deportista es E
+El medico es  C
+4. la respuseta es el conjunto C
+
+
+
+
 ## Desarrolo 
+esta desarrollo se realizo en python con el framework Flask
+
+para que se ejecute se debe correr el aerchivo App.py
+
 la pagina tiene como inicio un form donde ingresar los valores y al seleccionar calcular se redirige a la vista de resultados
  ![](https://github.com/eider1939/Prueba_Tecnica_OPA/blob/main/Img/index.JPG)
 
